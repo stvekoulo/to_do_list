@@ -33,7 +33,7 @@
         };
   
         // Utilisez Axios pour faire une requête POST à votre endpoint de connexion Laravel
-        axios.post('http://127.0.0.1:8000/api/connexion', loginData)
+        axios.post('http://127.0.0.1:8000/api/login', loginData)
           .then( () => {
             alert("Connexion réussie !");
             // Redirigez l'utilisateur vers la page de dashboard

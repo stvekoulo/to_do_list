@@ -54,7 +54,7 @@
         };
   
         // Utilisez Axios pour faire une requête POST à votre endpoint d'inscription Laravel
-        axios.post('http://127.0.0.1:8000/api/inscription', userData)
+        axios.post('http://127.0.0.1:8000/api/register', userData)
           .then(() => {
             alert("Inscription réussie ! Redirection vers la page de connexion.");
             this.$router.push('/connexion');
